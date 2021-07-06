@@ -24,38 +24,7 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "C:/Users/ASUS/AppData/Local/Temp/tmp4777dbc_/init.c.o",
-            "src\\init.c"
-        ],
-        "directory": "C:\\Users\\ASUS\\Desktop\\VEXCortex",
-        "file": "src\\init.c"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
-            "-isystem./include",
-            "-iquote./include/./",
-            "-mthumb",
-            "-mcpu=cortex-m3",
-            "-mlittle-endian",
-            "-Os",
-            "-ffunction-sections",
-            "-fsigned-char",
-            "-fomit-frame-pointer",
-            "-fsingle-precision-constant",
-            "-fdiagnostics-color",
-            "-std=gnu99",
-            "-o",
-            "C:/Users/ASUS/AppData/Local/Temp/tmp4777dbc_/auto.c.o",
+            "C:/Users/ASUS/AppData/Local/Temp/tmpvpoyn50t/auto.c.o",
             "src\\auto.c"
         ],
         "directory": "C:\\Users\\ASUS\\Desktop\\VEXCortex",
@@ -86,11 +55,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "C:/Users/ASUS/AppData/Local/Temp/tmp4777dbc_/opcontrol.c.o",
-            "src\\opcontrol.c"
+            "C:/Users/ASUS/AppData/Local/Temp/tmpvpoyn50t/init.c.o",
+            "src\\init.c"
         ],
         "directory": "C:\\Users\\ASUS\\Desktop\\VEXCortex",
-        "file": "src\\opcontrol.c"
+        "file": "src\\init.c"
     },
     {
         "arguments": [
@@ -123,10 +92,41 @@
             "-fdiagnostics-color",
             "--std=gnu++11",
             "-o",
-            "C:/Users/ASUS/AppData/Local/Temp/tmp4777dbc_/main.cpp.o",
+            "C:/Users/ASUS/AppData/Local/Temp/tmpvpoyn50t/main.cpp.o",
             "src\\main.cpp"
         ],
         "directory": "C:\\Users\\ASUS\\Desktop\\VEXCortex",
         "file": "src\\main.cpp"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
+            "-isystem./include",
+            "-iquote./include/./",
+            "-mthumb",
+            "-mcpu=cortex-m3",
+            "-mlittle-endian",
+            "-Os",
+            "-ffunction-sections",
+            "-fsigned-char",
+            "-fomit-frame-pointer",
+            "-fsingle-precision-constant",
+            "-fdiagnostics-color",
+            "-std=gnu99",
+            "-o",
+            "C:/Users/ASUS/AppData/Local/Temp/tmpvpoyn50t/opcontrol.c.o",
+            "src\\opcontrol.c"
+        ],
+        "directory": "C:\\Users\\ASUS\\Desktop\\VEXCortex",
+        "file": "src\\opcontrol.c"
     }
 ]
